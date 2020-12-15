@@ -6,6 +6,7 @@
         v-for="project in projects"
         :key="project.name"
         :title="project.name"
+        class="mx-1"
       >
         {{ project.description }}
       </b-card>
